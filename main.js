@@ -28,6 +28,8 @@ document.msExitFullscreen();
 }
 }
 /* Report Window Size */
+<p>Window inner width: <span id="width"></span></p>
+<p>Window inner height: <span id="height"></span></p>
 const heightOutput = document.querySelector("#height");
 const widthOutput = document.querySelector("#width");
 function reportWindowSize() {
