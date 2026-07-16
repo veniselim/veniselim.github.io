@@ -1,6 +1,4 @@
 /*Full compatibility for all browsers + Full screen on Desktop*/
-<button id="btnFS">FullScreen</button>
-<button id="btnWS">Exit Full Screen</button>
 const btnFS=document.querySelector("#btnFS");
 const btnWS=document.querySelector("#btnWS");
 btnFS.addEventListener("click",enterFullscreen);
