@@ -1,26 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
 	<head>
-		<meta charset="UTF-8">
-		<link href="style.css" type="text/css" rel="stylesheet"/>
-		<script src="main.js" defer></script>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+		<meta charset="UTF-8">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="icon" type="images/favicon" href="favicon.ico">
-		<!-- get icons from https://www.favicon.cc -->
-		<link rel="manifest" href="manifest.json" />
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="main.js" defer></script>
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+		<title>Myers-Briggs Type Indicator</title>
 	</head>
+	<body>
+		<header id="header">
+			<h1>Myers-Briggs Type Indicator</h1>
+		</header>
+		<nav id="nav">
+			<button id="hamIcon" class="navigation">Open Menu</button>
+			<ul>
+				<li><button id="page1btn" class="navigation">Home</button></li>
+				<li><button id="page2btn" class="navigation">Origin</button></li>
+				<li><button id="page3btn" class="navigation">Functions</button></li>
+				<li><button id="page4btn" class="navigation">Benefits</button></li>
+				<li><button id="page5btn" class="navigation">Game & Quiz</button></li>
+			</ul>
+		</nav>
+		<main id="main">
+			<section id="page1" class="page">
+				<h2>About the Myers-Briggs Type Indicator</h2>
+				<p>The Myers-Briggs Type Indicator (MBTI) is a typology system. Its goal is to classify individuals into 16 unique psychological types, also known as personality types. Well known for the MBTI test, it assigns a letter value to each of four dichotomous categories: introversion or extraversion, sensing or intuition, thinking or feeling, and judging or perceiving. This will respectively produce a four-letter test result, such as "ESTP" or "INFJ", representing one of the 16 types.</p>
+			
+				<h3>QR code for desktop view + Fullscreen</h3>
+				<img src="images/qrcode.png">
+				<button id="btnFS" class="nextbt">FullScreen</button>
+				<button id="btnWS" class="nextbt">Exit Full Screen</button>
+				
+				<h4>Credits for all resources</h4>
+				<div class="list">
+					<ul class="links">
+						<li class="links"><a href="https://www.favicon.cc">1. icon</a></li>
+						<li class="links"><a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">2. myers-briggs type indicator</a></li>
+						<li class="links"><a href="https://simple.wikipedia.org/wiki/Myers-Briggs_Type_Indicator">3. myers-briggs type indicator</a></li>
+						<li class="links"><a href="https://en.wikipedia.org/wiki/Carl_Jung">4. carl jung</a></li>
+						<li class="links"><a href="https://www.simplypsychology.org/carl-jung.html">5. carl jung</a></li>
+						<li class="links"><a href="https://www.docsity.com/en/docs/jung-functions-pdf/9002954/">6. cognitive functions</a></li>
+					</ul>
+				</div>
+			</section>
+			<section id="page2" class="page">
+				<h2>ORIGIN</h2>
+				<p>The Myers-Briggs Type Indicator's original version was created by Katherine Cook Briggs and her daughter Isabel Briggs Myers. They were inspired by Carl Jung's 1921 book called Psychological types. Isabel Myers figured that Carl Jung's book was too complicated for the public, hence she did her best to organise the Jungian cognitive functions in a more accessible manner.</p>
+				<article>
+					<h2>History</h2>
+					<p>Regarding the true history, in 1917, Briggs took it upon herself to research into personalities. Observing people, notably her future son-in-law, she noticed core differences between both him and other family members. Interested, she went on a journey. She looked into biographics and developing a typology with four temperaments: meditative (or thoughtful), spontaneous, executive and social. After Carl Jung's release of Psychological Types in 1923, Briggs found herself noticing his theory, although similar to hers, was actually far more complicated. She then went on to re-shape her typology using this knowledge, therefore creating the 8 distinct categories for cognitive functions.</p>
+				</article>
+				<article>
+					<h2>Articles by Briggs</h2>
+					<p>Her first article, mainly a description of Carl Jung's theory, is in The New Republic called "Meet Yourself Using the Personality Paint Box" which was published in 1926. Another article she worked on was "Up From Barbarism", published in 1928. Carl Jung played a huge role in influencing both Briggs and her daughter, giving them a guide in pursuing further research in human behaviours in order to turn psychological types into practical use.</p>
+				</article>
+				<article>
+					<h2>About Carl Jung</h2>
+					<p>Carl Gustav Jung is a Swiss psychiatrist, psychotherapist, and psychologist. He founded the school of analytical psychology and was a prolific author of over twenty books. He is best known for his concept of archetypes, being an influential psychologist. His theory of personality tells individuals that the human mind is made up of three interacting layers, each known as the conscious ego, a personal unconscious of forgotten or repressed material, and a collective unconscious of inherited, universal symbols named archetypes. Jung said that psychological health comes from individuation, as well as the lifelong process of integrating conscious and unconscious parts of oneself into a more balance and authentic whole. He was a wise man, having created the smart distinction between extroverted and introverted psychological types, forming the theoretical foundation of MBTI.</p>
+				</article>
+			</section>
+			<section id="page3" class="page">
+				<section class="grid">
+					<section class="overview1">
+						<h2>FUNCTIONS</h2>
+						<p>Myers-Briggs Type Indicator's cognitive functions originally consists of 8 categories, two examples are Extraverted Sensing (Se) to Introverted Feeling (Fi). Individuals new to Myers-Briggs, or new to typology, tend to use the broken-down terms such as "extrovert" or "sensing". However, this has caused multiple misconceptions on how MBTI is truly supposed to be understood and percevied. It is important to note that MBTI is not supposed to have or be stereotypes.</p>
+					</section>
+					<section class="category1">
+						<h2>Se</h2>
+						<p>When one dominates extraverted sensing, individuals are given a sense of needing to indulge in the immediate context, the "here and now", to the point that they are one with what is happening in their surroundings. They are easily energised by being in touch with their environment and they strongly focus on "what it is". They often show the quality of realism, having observed what actually exists and enjoying a mix of stimulation and variety. They pay close attention to what is around them; this leads to their views and information constantly shifting and adapting to the ever-changing every day. What is most relevant in their "now" is more important than the rest.</p>
+						</section>
+					<section class="category2">
+						<h2>Si</h2>
+						<p>When one dominates introverted sensing, individuals have a tendency to compare their past experiences to what their experience will be, whether in the present or future. They find that information from their past is reliable as to them, it is rich in detail and what is connected to those experiences. These experiences energise them especially in one's familiarity. One considers their internal database as important to them, intensely experienced. Their go-to thought process stems from their past experiences and associations against current information. They may take a while to accept new information because of this. Though, they are just individuals who prefer not to dwell on false hope or believe in things that may be false. Past experiences help one to rationalise, since they have already been through similar or certain situations, hence it is a way for them to say that "it's true because it's happened."</p>
+					</section>
+					<section class="category3">
+						<h2>Ne</h2>
+						<p>When one dominates extraverted intuition, individuals tend to read "between the lines". They like to do a ton of brainstorming, seeing possibilities and meanings as something that is needed to be explored and understood. They excel in creating these potential possibilities and they accept neww approaches to things with open arms. Others' perspectives on people and things alike energises them. They seek insights and ideas, likely triggered by certain situations, which emphasises on the point where they tend to brainstorm. To them, they create a constant incoming of ideas, bringing related pieces of information from one context to another. This is seen as them essentially creating relationships between anything and everything perceived. These individuals tend to focus on what can be rather than what really is, going outside of the box just for this. They are not stationed to just one possibility, finding comfort in having multiple. They love creativity, and dislike confinement, preferring freedom of possibilities. </p>
+					</section>
+					<section class="category4">
+						<h2>Ni</h2>
+						<p>When one dominates introverted intuition, individuals feel a sense of certainty of what will or may happen, even if they lack detail or supported data that support their predictions. They are energised by transformative visions of how a being can grow, and may also be drawn to original approaches that could allow them to manifest visions. These individuals tend to be drawn to "flashes" of insight, as they find them as profound symbols and/or conceptual wholes that frequent. They find that broad themes and complex systems or patterns just so happen to show themselves without anything outside or external triggering these events. They use their inner image as a safe space, allowing themselves to brace for events that to them, are certain to happen or universally significant.</p>
+					</section>
+					<section class="category5">
+						<h2>Te</h2>
+						<p>When one dominates extraverted thinking, putting things in order is easy for them, whether it be organising their space, ideas or things. This activity even energises them as they feel that satisfaction from "a place for everything and everything in its place." These individuals have a tendency to create their own organising system if it does not already exist, and finds heavy comfort in using especially conventional ones such as charts, matrices, tables, numerical sequences and things alike. Their information is looked into and accepted if they are factual or based on laws of science, or society and in general, logical explanations. </p>
+					</section>
+					<section class="category6">
+						<h2>Ti</h2>
+						<p>When one dominates introverted thinking, categorising and naming things is something they are unable to avoid as it acts as second nature to them. They have a sort of refined and specific way of categorising things, but they often keep this to themselves unless something does not fit in this way. They find describing categories and expressing principles energising, as they seek critique and further analysing of things that may be wrong. They focus on getting to the root of issues or things, rather than the outcome, as they prefer to take their time with understanding it first. If something is in their way or does not fit well into potential existing frameworks, they put a lot of thought into ensuring that it is back in order, even if it costs the wholee framework to be revised and reshaped.</p>
+					</section>
+					<section class="category7">
+						<h2>Fe</h2>
+						<p>When one dominates extraverted feeling, these individuals pay tons of attention in creating and maintaining harmonious and stable relationships, planning social hangouts or conventions for people they care about to keep in peace and harmony, or just to make people feel included and comfortable in a group. They are often seen as compassionate or some people's "safe space", as they often find ease with conversations and knowing what can put others at ease with just the right words. They tend to take it upon themselves to ensure that the people around them are taken care of, as they find that reassuring one's physical and emotional being is energising. They seek the need to meet the needs of others. These individuals are emotionally reliable, understanding when the correct time, place, and things are to be given or held back in relation to the effects of individuals around them.</p>
+					</section>
+					<section class="category8">
+						<h2>Fi</h2>
+						<p>When one dominates introverted feeling, these individuals have a tendency to have gut feelings about whether personal, group, or generally organisational behaviour aligns with their values. The behaviour of others is assessed for authenticity and whether or not they are against this individual's beliefs. They find that this is the right way to maintain their own inner harmony, as they find comfort when this harmony exists, giving them a sense of peace of mind. They do not cater to what others need to hear, rather they have a strong belief in truths as they are the base of these individual's next action. Standing for these truths is more important than telling white lies or unauthentic words. However, these individuals do not force their own values or beliefs onto people unless others step on these boundaries first. These individuals have values that may be heavily biased to them, very specific, or such universals like freedom, loyalty and goodness.</p>
+					</section>
+					<section class="jungian">
+						<h3>JUNGIAN</h3>
+						<p>You are meant to have 2 introverted functions and 2 extroverted functions. In simpler terms, your dominant function will always have an opposite function as its inferior. For example, someone with "Ti" as their dominant function will have "Fe" as their inferior function, or if someone have "Te" as their dominant function, they will have "Fi" as their inferior. This applies to the rest, such as someone with "Ni" as their dominant will have "Se" as their inferior. Lastly, someone with "Ne" dominant will have "Si" inferior and respectively vice-versa.</p>
 
-	<header>
-		<h1>Durian App</h1>
-	</header>
-		<button id="btnFS">FullScreen</button>
-		<button id="btnWS">Exit Full Screen</button>
-		<p>Window inner width: <span id="width"></span></p>
-		<p>Window inner height: <span id="height"></span></p>
-	<footer>
-		<img id="qrCodeImg" src="images/qrcodeimg.png">
-	</footer>
-</body>
+						<article>
+							<h2>YOUR STACK</h2>
+							<p>The way you arrange your cognitive functions is followed in a strict hierarchy: dominant being your first, auxiliary being your second, tertiary being your third, and the inferior  being your fourth. Think of this as organising functions from most relatable to least. Do take note that a person is either extraverted or introverted for each function, not both. To find out your MBTI, scroll down for the list. You are meant to reorder until you fit into any of these personality types, good luck.
+						</article>
+						<table>
+							<tr>
+								<th>MBTI</th>
+								<th>Dominant</th>
+								<th>Auxiliary</th>
+								<th>Tertiary</th>
+								<th>Inferior</th>
+							</tr>
+							<tr>
+								<td>ISFJ</td>
+								<td>Si</td>
+								<td>Fe</td>
+								<td>Ti</td>
+								<td>Ne</td>
+							</tr>
+							<tr>
+								<td>ESTP</td>
+								<td>Se</td>
+								<td>Ti</td>
+								<td>Fe</td>
+								<td>Ni</td>
+							</tr>
+							<tr>
+								<td>ESFP</td>
+								<td>Se</td>
+								<td>Fi</td>
+								<td>Te</td>
+								<td>Ni</td>
+							</tr>
+							<tr>
+								<td>INTJ</td>
+								<td>Ni</td>
+								<td>Te</td>
+								<td>Fi</td>
+								<td>Se</td>
+							</tr>
+							<tr>
+								<td>INFJ</td>
+								<td>Ni</td>
+								<td>Fe</td>
+								<td>Ti</td>
+								<td>Se</td>
+							</tr>
+							<tr>
+								<td>ENTP</td>
+								<td>Ne</td>
+								<td>Ti</td>
+								<td>Fe</td>
+								<td>Si</td>
+							</tr>
+							<tr>
+								<td>ENFP</td>
+								<td>Ne</td>
+								<td>Fi</td>
+								<td>Te</td>
+								<td>Si</td>
+							</tr>
+							<tr>
+								<td>ISTP</td>
+								<td>Ti</td>
+								<td>Se</td>
+								<td>Ni</td>
+								<td>Fe</td>
+							</tr>
+							<tr>
+								<td>INTP</td>
+								<td>Ti</td>
+								<td>Ne</td>
+								<td>Si</td>
+								<td>Fe</td>
+							</tr>
+							<tr>
+								<td>ESTJ</td>
+								<td>Te</td>
+								<td>Si</td>
+								<td>Ne</td>
+								<td>Fi</td>
+							</tr>
+							<tr>
+								<td>ENTJ</td>
+								<td>Te</td>
+								<td>Ni</td>
+								<td>Se</td>
+								<td>Fi</td>
+							</tr>
+							<tr>
+								<td>ESFJ</td>
+								<td>Fe</td>
+								<td>Si</td>
+								<td>Ne</td>
+								<td>Ti</td>
+							</tr>
+							<tr>
+								<td>ENFJ</td>
+								<td>Fe</td>
+								<td>Ni</td>
+								<td>Se</td>
+								<td>Ti</td>
+							</tr>
+							<tr>
+								<td>ISFP</td>
+								<td>Fi</td>
+								<td>Se</td>
+								<td>Ni</td>
+								<td>Te</td>
+							</tr>
+							<tr>
+								<td>INFP</td>
+								<td>Fi</td>
+								<td>Ne</td>
+								<td>Si</td>
+								<td>Te</td>
+							</tr>
+						</table>
+					</section>
+				</section>
+			</section>
+			<section id="page4" class="page">
+				<h2>BENEFITS</h2>
+				<p>The Myers-Briggs Type Indicator has never been universally known to be relied on heavily. Rather, it is seen as a tool used by psychologists working as managers' coaches in organisational contexts. Although the relationship betwen MBBTI and leadership practices inventory proved to be weak, there is still benefits to uncovering your MBTI and oneself's behaviour patterns. MBTI, to many, is seen as a great way to learn things about yourself as you are required to look back at your own systemical way of handling situations, things and people in general. One of the greatest aspirations by Briggs was to help people understand and get to know themselves deeper in order to create a life, following their own nature and heart's desires.</p>
+				
+				<article>
+					<h2>SOUTH KOREA'S LOVE FOR MBTI</h2>
+					<p>MBTI is a global sensation, but an even more local sensation in South Korea. As many have heard, MBTI has been assessed even in job applications and interviews, giving higher-ups a way to gauge one's personality and behavioural patterns. Not only that, MBTI is a very common topic among koreans, especially on television interviews and Youtube videos. To many, MBTI is a shortcut to finding something in common, or understanding another's boundaries. As for youths, they find that MBTI offers a sense of belonging and individuality, as well as some peace outside of things they stress about.</p>
+				</article>
+			
+			</section>		
+			<section id="page5" class="page">
+				<article>
+					<h2>SPOT THE ODD ONE OUT</h2>
+					<section id="game" class="game">
+						<p class="gametext">Click to select your option. Find the odd MBTI out!</p>
+						<div id="score">Score: 0 / 3</div> 
+						<div id="roundinf">Round: 1 of 3</div>
+						<div id="layout"></div>
+						<div id="outcome"></div>
+						<div id="gamebutton">
+						<button id="next" class="nextbt">Next</button>
+						<button id="replay" class="replaybt">Replay</button>
+					</section>
+				</article>
+				
+				<article>
+				<h2>QUIZ</h2>
+					<fieldset>
+					  <legend>1. What is the difference between ESTP and ESFP?</legend>
+					  <input type="radio" name="q1" value="aux1"> Estp has a Ti Auxiliary Function, while Esfp has a Fi Auxiliary Function.
+					  <input type="radio" name="q1" value="aux2"> Estp has a Fi Auxiliary Function, while Esfp has a Ti Auxiliary Function.
+					  <input type="radio" name="q1" value="aux3"> They are basically the same.
+					  <input type="radio" name="q1" value="aux4"> Estp has a Ti Dominant Function, while Esfp has a Fi Dominant Function.
+					</fieldset>
+					<fieldset>
+					  <legend>2. What's the difference between Se and Si?</legend>
+					  <input type="radio" name="q2" value="se1"> Se refers to using past experiences, whereas Si refers to the "here and now"
+					  <input type="radio" name="q2" value="se2"> Si and Se are the same.
+					  <input type="radio" name="q2" value="se3"> Se refers to the "here and now", whereas Si refers to using past experiences.
+					  <input type="radio" name="q2" value="se4"> Si refers to using past experiences for present and future situations, whereas Se refers to using future situations to evaluate.
+					</fieldset>
+					<button id="btnSubmit" type="button" class="submitbt">Submit Quiz</button>
+					<h3 id="scorebox">Not submitted</h3>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
